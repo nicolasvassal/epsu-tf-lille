@@ -10,6 +10,7 @@ resource "aws_vpc" "epsi-tf" {
   }
 }
 #test
+#test
 resource "aws_subnet" "public-a" {
   vpc_id     = aws_vpc.epsi-tf.id
   cidr_block = element(var.cidr_blocks, 0)
