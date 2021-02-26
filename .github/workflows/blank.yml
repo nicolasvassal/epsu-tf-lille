@@ -35,7 +35,7 @@ jobs:
       #    echo Add other actions to build,
       #    echo test, and deploy your project.
 
-      # Runs a test from Nico.
+      # Runs a test from Nico
       #- name: Install terraform
       #  run: |
       #    wget https://releases.hashicorp.com/terraform/0.14.7/terraform_0.14.7_linux_amd64.zip
